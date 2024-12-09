@@ -1,0 +1,53 @@
+############################
+# OS Files
+############################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+############################
+# Node.js
+############################
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+.npm
+.yarn
+
+############################
+# Strapi
+############################
+.env
+.env.*
+license.txt
+exports
+*.cache
+dist
+build
+.strapi-updater.json
+.strapi/
+.cache/
+
+############################
+# Project Files
+############################
+.tmp/
+public/uploads/*
+!public/uploads/.gitkeep
+
+############################
+# IDE & Editors
+############################
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
